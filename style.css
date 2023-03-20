@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  main {
+    margin-left: 10%;
+  }
+  .top img {
+    width: 80%;
+    height: 50%;
+  }
+  h2 .secondtop {
+    text-align: center;
+  }
+  .Brands img {
+    width: 20%;
+    height: 20%;
+  }
+  .Brands {
+    display: flex;
+    justify-content: space-between;
+  }
+  .Help_Support img {
+    width: 80%;
+    height: 50%;
+  }
+  #more {
+    display: none;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+  }
+  .logo {
+    font-size: 2rem;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+    position: relative;
+  }
+  .menu-icon {
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+  }
+  .menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #333;
+    list-style: none;
+    z-index: 100;
+  }
+  .menu li {
+    margin: 0;
+    padding: 0;
+  }
+  .menu a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+  }
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav li {
+    margin-left: 1rem;
+  }
+  footer {
+    background-color: #333;
+  }
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  @media screen and (min-width: 768px) {
+    .menu-icon {
+      display: none;
+    }
+    .menu {
+      display: flex;
+      position: static;
+      background-color: transparent;
+    }
+    .menu li{
+      margin: 0 10px;
+    }
+    .menu a {
+      padding: 10px 0;
+    }
+  }
